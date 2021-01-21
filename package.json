@@ -1,6 +1,6 @@
 {
   "name": "lambda-ssm-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utility that will load all available values in the parameter store (following a prefix) and add them as environment variables.",
   "main": "config.js",
   "scripts": {
