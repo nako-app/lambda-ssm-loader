@@ -1,0 +1,23 @@
+{
+  "name": "lambda-ssm-loader",
+  "version": "1.0.0",
+  "description": "Utility that will load all available values in the parameter store (following a prefix) and add them as environment variables.",
+  "main": "config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nako-app/lambda-ssm-loader.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nako-app/lambda-ssm-loader/issues"
+  },
+  "homepage": "https://github.com/nako-app/lambda-ssm-loader#readme",
+  "dependencies": {
+    "aws-sdk": "^2.829.0",
+    "change-case": "^4.1.2"
+  }
+}
