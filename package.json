@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/nako-app/lambda-ssm-loader.git"
   },
-  "author": "Vincent Seguin",
+  "author": "Nako",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/nako-app/lambda-ssm-loader/issues"
