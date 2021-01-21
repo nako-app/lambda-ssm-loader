@@ -4,11 +4,7 @@ Utility that will load all available values in the parameter store (following a 
 
 ## Add in your project
 
-Add to your package.json `dependencies section the following:
-
-```
-"lambda-ssm-loader": "nako-app/lambda-ssm-loader#master"
-```
+`npm install lambda-ssm-loader`
 
 ## Example usage
 
