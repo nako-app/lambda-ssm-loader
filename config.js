@@ -15,7 +15,6 @@ const initializeConfig = async (prefix) => {
 
     const parameters = await ssm.getParametersByPath(params).promise();
 
-    console.log(parameters);
     parameters.Parameters.forEach((p) => {
       process.env[snakeCase(p.Name.replace(prefix, "")).toUpperCase()] =
         p.Value;
