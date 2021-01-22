@@ -32,7 +32,3 @@ exports.lambdaHandler = async (event, context) => {
 }
 
 ```
-
-## TODOs
-
-- Release to npm properly
